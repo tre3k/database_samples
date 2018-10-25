@@ -14,6 +14,7 @@ public class IndexPage extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //super.doGet(req, resp);
+
         resp.getWriter().print("<html><body><h1>index page.</h1></body></html>");
     }
 }
